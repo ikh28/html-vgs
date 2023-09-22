@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body{
+    /* font-family: 'Playfair Display', serif; */
+    background-color: cornflowerblue;
+}
+
+
+p{
+    font-size: 30px;
+    color: indigo;
+    
+    font-weight: 800;
+
+}
+
+body{
+    color: aliceblue;
+
+}
+
+.bilder{
+    display: flex;
+    justify-content: center;
+}
+
+/* selector */
+.bilder #a{
+    width: 200px;
+    height: 300px;
+}
+
+#ja .lenker{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    
+}
+#ja .lenker p a{
+    padding: 10px;
+    color: blueviolet;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    background-color: brown;
+}
+article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    display: flex;
+
+}
